@@ -2,9 +2,62 @@ body{
     display: grid;
     align-items: center;
     justify-content: center;
+
+    background: #040924;
+
+}
+
+body, input, button{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.screen1{
+    background: #FFFFFF;
+    padding: 48px 64px 64px 64px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+
+    margin: 130px 426px 157px 426px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #0C3440;
 }
 
 form{
     display: flex;
     flex-direction: column;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    gap: 8px;
+
 }
+
+input{
+    padding: 16px;
+    background: #DCE2E9;
+    border: 1px solid #02799D;
+    border-radius: 4px;
+
+    color: #212529;
+    width: min(18px)max(90%);
+    height: 20px;
+}
+
+button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+
+    padding: 16px;
+    width: 300px;
+    height: 52px;
+    background: #02799D;
+    border-radius: 4px;
+}
+
