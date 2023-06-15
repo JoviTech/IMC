@@ -157,3 +157,25 @@ form button:hover {
 .modal button:hover {
     transform: scale(1.1);
 }
+.alert-error.open{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.alert-error{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0;
+    background: #F03E3E;
+    text-align: center;
+    color: var(--tt-error);
+    padding: .8rem 0;
+    font-weight: bold;
+
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-30px);
+    transition: transform .5s;    
+}
