@@ -36,7 +36,7 @@ body, input, button {
 }
 
 .container {
-    height: 90vh;
+    height: vh;
     display: grid;
     place-content: center;
 }
